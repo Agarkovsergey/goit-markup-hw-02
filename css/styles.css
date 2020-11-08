@@ -3,4 +3,114 @@
 /* Цвет белого текста #ffffff */
 /* Цвет белого текста для футера rgba(255, 255, 255, 0.6) */
 /* Акцент  #2196f3 */
+/* вторичный цвет фона #F5F4FA */
+/* фон хиро секцции #2f303a */
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --hero-color: #2f303a;
+  --footer-text-color: rgba(255, 255, 255, 0.6);
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --primary-background-color: #ffffff;
+  --secondary-background-color: #f5f4fa;
+}
 
+body {
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
+}
+.list {
+  list-style: none;
+}
+
+/* header */
+
+.logo {
+  color: var(--primary-text-color);
+}
+.logo span {
+  color: #2196f3;
+}
+.site-nav a {
+  color: var(--primary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.address-nav a {
+  color: var(--secondary-text-color);
+}
+.address-nav a:hover,
+.address-nav a:focus {
+  color: var(--accent-color);
+}
+
+/* main */
+
+.hero {
+  background-color: var(--hero-color);
+}
+.hero-title {
+  color: var(--white-color);
+}
+
+.button {
+  background-color: var(--secondary-background-color);
+  color: var(--primary-text-color);
+}
+.button:hover,
+.button:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+.button.primary {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+.button.primary:hover,
+.button.primary:focus {
+  background-color: var(--secondary-background-color);
+  color: var(--accent-color);
+}
+
+.button.current {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+/* feature-list */
+
+.text,
+.position {
+  color: var(--secondary-text-color);
+}
+.team-block {
+  background-color: var(--secondary-background-color);
+}
+
+/* footer */
+
+.footer {
+  background-color: var(--hero-color);
+}
+.footer .logo {
+  color: var(--white-color);
+}
+.footer-address p {
+  color: var(--white-color);
+}
+.footer-address a {
+  color: var(--footer-text-color);
+}
+
+/* main portfolio.html */
+/* .images .text {
+  color: var(--secondary-text-color);
+} */
