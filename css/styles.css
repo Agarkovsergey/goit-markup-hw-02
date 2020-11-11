@@ -56,15 +56,15 @@ body {
   color: var(--accent-color);
 }
 
-.address-nav .link {
+.nav-contacts .link {
   color: var(--secondary-text-color);
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.address-nav .link:hover,
-.address-nav .link:focus {
+.nav-contacts .link:hover,
+.nav-contacts .link:focus {
   color: var(--accent-color);
 }
 
