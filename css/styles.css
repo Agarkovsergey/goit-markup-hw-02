@@ -47,6 +47,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  text-transform: capitalize;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -121,6 +122,9 @@ body {
   line-height: 1.16;
   text-align: center;
 }
+.section-title::first-letter {
+  text-transform: uppercase;
+}
 .feature-list .title {
   font-weight: 700;
   line-height: 1.14;
@@ -129,6 +133,9 @@ body {
 .feature-list .text {
   color: var(--secondary-text-color);
   line-height: 1.71;
+}
+.feature-list .text::first-letter {
+  text-transform: uppercase;
 }
 /* team-block */
 .team-block {
@@ -142,6 +149,7 @@ body {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
+  text-transform: capitalize;
 }
 
 .post {
@@ -194,8 +202,14 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
 }
+.card .title::first-letter {
+  text-transform: uppercase;
+}
 .card .text {
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.87;
+}
+.card .text::first-letter {
+  text-transform: uppercase;
 }
